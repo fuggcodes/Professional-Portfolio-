@@ -148,7 +148,7 @@ main {
 }
 
 .layout img{
-
+    background-image: url("../images/5745binyat003405-R1-043-20.jpg");
 }
 
 .flexcontainer{
@@ -160,7 +160,9 @@ main {
 }
 
 .boxitem{
-
+    border
+    min-height: 150px ;
+    max height: 150px ;
 }
 
 .boxitem > div{
@@ -172,7 +174,74 @@ main {
 }
 
 .surf{
-    background-image: url("../images/mailbox.jpg");
+    background-image: url("../images/2801bingat003337-R1-032-14A.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.led{
+    background-image: url("../images/2801bingat003332-R1-075-36.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.calc{
+    background-image: url("../images/2801bingat003329-R1-052-24A.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.pastel{
+    background-image: url("../images/2801bingat003329-R1-040-18A.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.runbuddy{
+    background-image: url("../images/2801bingat003337-R1-030-13A.jpg")
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 0 0;
 }
 
 .contact address{

@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root { 
+    --primary: rgb(107, 107, 235); 
+    --secondary: rgb(206, 206, 163); 
+    --tertiary: rgb(68, 68, 68); 
+    --dark: rgb(53, 53, 53);
+    --light: rgb(199, 199, 199);
+}
+body {    
+    padding: 0;
+    margin: 0;
+    background-color: var(--light);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: var(--tertiary);
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+
+
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 6% 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--tertiary);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 35px var(--secondary);
+}
+
+header h1 {
+    color: var(--dark);
+    background-color: var(--secondary);
+    padding: 5px 3%; 
+    margin: 0;
+    font-size: 48px;
+    line-height: 1;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--dark);
+}
+
+nav a:last-child{
+    margin-right: 0;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+
+.hero {
+    background:var(--dark);
+    background-image: url("../images/mailbox.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero div{
+    flex: 0 0 90%;
+}
+
+.hero h2{
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    display: inline;
+}
+
+.main{
+    margin-top: 26px ;
+    margin-bottom: 45px;
+}
+
+.wrapper{
+    max-width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 25px 0;
+    padding: 10px 0;
+
+}
+
+.layout > h2{
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.layout > div{
+    flex: 0 0 77%;
+}
+
+.layout img{
+
+}
+
+.flexcontainer{
+
+}
+
+.layout p{
+    margin-bottom: 26px ;
+}
+
+.boxitem{
+
+}
+
+.boxitem > div{
+
+}
+
+.boxitem h3{
+
+}
+
+.surf{
+    background-image: url("../images/mailbox.jpg");
+}
+
+.contact address{
+
+}
+
+.contact address a{
+
+}
+
+/* mediaquerys  */
